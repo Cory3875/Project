@@ -11,6 +11,10 @@ randint1 = random.randint(1,100)
 randint2 = random.randint(1,99)
 randint3 = random.randint(1,100)
 randint4 = random.randint(1,99)
+randint5 = random.randint(1,100)
+randint6 = random.randint(1,99)
+randint7 = random.randint(1,100)
+randint8 = random.randint(1,99)
 
 #question 1
 print str(randint1) + " + " + str(randint2) + '=' + '?'
@@ -32,3 +36,35 @@ rawinput2 = raw_input()
 
 if int(rawinput2) + randint4 == randint3:
     print 'You are correct, time to move onto the next level'
+    
+print
+print 'now you are on the multiplication level!'
+print
+
+#question 3
+print str(randint5) + 'x' + str(randint6) + '=' + '?'
+rawinput3 = raw_input()
+
+if int(raw_input3) / randint6 == randint5:
+    print 'You are correct, time to move onto the last level'
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
