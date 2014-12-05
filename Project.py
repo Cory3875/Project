@@ -45,10 +45,21 @@ print
 print str(randint5) + 'x' + str(randint6) + '=' + '?'
 rawinput3 = raw_input()
 
-if int(raw_input3) / randint6 == randint5:
+if int(rawinput3) / randint6 == randint5:
     print 'You are correct, time to move onto the last level'
 
-    
+print
+print 'now you are on the division level'
+print
+
+#question 4
+print str(randint7) + '/' + str(randint8) + '=' + '?'
+rawinput4 = raw_input()
+
+if int(rawinput4) * randint8 == randint7:
+
+print
+print 'You win!'  
     
     
     
