@@ -1,4 +1,4 @@
-import random
+  import random
 
 #intro statements
 print 'Welcome to the game of math fun!'
