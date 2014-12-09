@@ -29,7 +29,9 @@ while (endgame == False):
         if int(rawinput1) - randint2 == randint1:
             print 'You are correct, time to move onto the next level'
             counter = counter + 1
-    
+        if counter < 1:
+            endgame = True
+            
         print 
         print 'now you are on the subtraction level!'
         print 
@@ -40,7 +42,7 @@ while (endgame == False):
     
         if int(rawinput2) + randint4 == randint3:
             print 'You are correct, time to move onto the next level'
-            counter = counter + 2
+            counter = counter + 2 
         print
         print 'now you are on the multiplication level!'
         print
@@ -68,11 +70,13 @@ while (endgame == False):
         print 'Do you wish to keep going?'
         rawinput5 = raw_input()
         if rawinput5 == 'yes':
+            print
             print 'Time to start over'
             
         else:
             endgame = True
-         
+            correctsofar = False
+            print 'Game Over'
         
         
         
