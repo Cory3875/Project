@@ -1,4 +1,4 @@
-  import random
+import random
 
 #intro statements
 print 'Welcome to the game of math fun!'
@@ -29,9 +29,11 @@ while (endgame == False):
         if int(rawinput1) - randint2 == randint1:
             print 'You are correct, time to move onto the next level'
             counter = counter + 1
-        if counter < 1:
-            endgame = True
-            
+        else: 
+             print
+             print 'You lost, Start over'
+             break
+           
         print 
         print 'now you are on the subtraction level!'
         print 
@@ -43,6 +45,11 @@ while (endgame == False):
         if int(rawinput2) + randint4 == randint3:
             print 'You are correct, time to move onto the next level'
             counter = counter + 2 
+        else: 
+            print
+            print 'You lost, Start over'
+            break
+            
         print
         print 'now you are on the multiplication level!'
         print
@@ -54,6 +61,10 @@ while (endgame == False):
         if int(rawinput3) / randint6 == randint5:
             print 'You are correct, time to move onto the last level'
             counter = counter + 3
+        else: 
+            print
+            print 'You lost, Start over'
+            break    
         print
         print 'now you are on the division level'
         print
@@ -64,6 +75,10 @@ while (endgame == False):
     
         if int(rawinput4) * randint8 == randint7:
             counter = counter + 4
+        else: 
+            print
+            print 'You lost, Start over'
+            break    
         print
         print 'You win!'  
         print
